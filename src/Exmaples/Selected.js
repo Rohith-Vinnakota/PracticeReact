@@ -29,7 +29,7 @@ function Selected() {
                     <option>Select Country</option>
                     {
                         countries.map((each, index) => {
-                            return <option key={index}>{each}</option>
+                            return <option key={index} value={each}>{each}</option>
                         })
                     }
                 </select>
