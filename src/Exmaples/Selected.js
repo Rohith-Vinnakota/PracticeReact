@@ -1,5 +1,5 @@
 import { useState } from 'react';
-function Practical() {
+function Selected() {
     const countries = [
         "india", "America", "SriLanka", "Dudai"
     ];
@@ -38,4 +38,4 @@ function Practical() {
         </>
     );
 }
-export default Practical;
+export default Selected;
